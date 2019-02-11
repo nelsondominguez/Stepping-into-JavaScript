@@ -1,14 +1,21 @@
 // JavaScript Document
+var myAge = 49;
 
-var youLikeMeat = true;
 
-var myNum = 10;
+	if (myAge > 30) {
 
-	if(youLikeMeat){
-		
-		document.write("you like Big Macs");
-		
-	}else{
-		
-		document.write("you hate Big Macs");
+		document.write("you are over 30 time to retire");
+
+	} else if (myAge > 20) {
+
+		document.write("you are over 20 your just getting stared!");
+
+	} else if (myAge > 10) {
+
+		document.write("you are over 10 noob!");
+
+	} else {
+
+		document.write("you are not over 10!");
+
 	}
