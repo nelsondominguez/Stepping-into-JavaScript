@@ -1,9 +1,14 @@
 // JavaScript Document
 
-var links = document.getElementsByTagName("a");
+	function getAverage (a,b){
 
-	for(i = 0; 1 < links.length; i++){
+		var average = (a + b) / 2;
 
-		links[i].className = "link-" +i;
+			console.log(average);
 
+		return average;
 	}
+
+	var myResult = getAverage(7,8);
+
+		console.log("the average is" + myResult);
