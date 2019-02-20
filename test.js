@@ -1,14 +1,24 @@
 // JavaScript Document
 
-	function name(a,b){
+		var average = 0
 
-		var longString = (a + b);
 
-			console.log(longString);
+	function getAverage (a,b){
 
-		return longString;
+			average = (a + b) / 2; 
 
+			console.log(average);
+
+		return average;
 	}
-		var myString = name("Nelson ", "Dominguez " );
 
-			console.log("They call me, "  + myString);
+	var myResult = getAverage(7,11); // gobal variable
+
+		console.log("the average is " + myResult);
+
+	function logResult(){
+
+		console.log("the average is " + myResult + " inside the function");	
+	}
+
+			logResult();
