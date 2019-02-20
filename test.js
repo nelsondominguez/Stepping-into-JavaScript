@@ -1,15 +1,14 @@
 // JavaScript Document
 
-	function getAverage (a,b,c,d,e,){
+	function getDifference (a,b){
 
-		var average = (a + b + c + d + e) / 5;
-
-			console.log(average);
+		var difference = (a - b);
 		
-		return average;
-
+			console.log(difference);
+		
+		return difference;
 	}
 
-	var myResult = getAverage(8,9,10,11,12);
+	var myResult = getDifference(10,5);
 
-		console.log("the average is " + myResult);
+		console.log("the difference is " + myResult);
