@@ -1,14 +1,14 @@
 // JavaScript Document
 
-	function getDifference (a,b){
+	function name(a,b){
 
-		var difference = (a - b);
-		
-			console.log(difference);
-		
-		return difference;
+		var longString = (a + b);
+
+			console.log(longString);
+
+		return longString;
+
 	}
+		var myString = name("Nelson ", "Dominguez " );
 
-	var myResult = getDifference(10,5);
-
-		console.log("the difference is " + myResult);
+			console.log("They call me, "  + myString);
