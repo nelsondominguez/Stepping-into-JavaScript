@@ -10,6 +10,6 @@
 
 	}
 
-	var myResult = getAverage(7,8,9,10,11);
+	var myResult = getAverage(8,9,10,11,12);
 
-		console.log("the average is" + myResult);
+		console.log("the average is " + myResult);
